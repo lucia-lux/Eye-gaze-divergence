@@ -1,0 +1,3 @@
+ffmpeg -r 30 -f image2 -s 854x480 -i P:\Spironolactone\eye_tracking\Tobii\film_stills_woverlay\image%d.jpg -vcodec libx264 -crf 15 -pix_fmt yuv420p P:\Spironolactone\eye_tracking\Tobii\film_stills_woverlay\film_overlay1.mp4
+
+ffmpeg -framerate 29.97 -i P:\Spironolactone\eye_tracking\Tobii\film_stills_woverlay\image%d.jpg -vb 50M P:\Spironolactone\eye_tracking\Tobii\film_stills_woverlay\film_overlay_v2.mp4  
